@@ -1,0 +1,265 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration-color: #010101 ;
+    margin: 0 auto;
+    
+}
+.section{
+    background-color: #87509c;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 105px;
+    padding-top: 105px;
+}
+.heroSection{
+    padding-top: 50px;
+}
+.container{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;  
+    text-align: center;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.logo{
+    float: left;
+    width: 50%;
+    height: auto;
+    text-align: left;
+}
+.menubar{
+    float: right;
+    width: 50%;
+    height: auto;
+    text-align: right;
+}
+.menubar ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.menubar ul li:first-child{
+    margin-left: 0px;
+}
+.menubar ul li a:hover{
+    text-decoration: underline;
+}
+.menubar ul li a.active{
+    text-decoration: underline;
+}
+.clear{
+    clear: both;
+}
+.welcomestate{
+    color: white;
+    text-align: center;
+}
+.welcomestate h2{
+    margin: 0px;
+    text-transform: uppercase;
+}
+.welcomestate a{
+    width:300px ;
+    height: 70px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px 50px;
+    background: #c86a40;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;    
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.welcomestate a:hover{
+    text-decoration: underline;
+    transition-duration: 0.4s;
+    background: #c86a40;
+}
+.serviceSection{
+    background: #17c2a4;
+}
+.grid{
+    float: left;
+    width: 25%;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.grid .part2 h3{
+    text-transform: uppercase;
+}
+
+.teamSection{
+    background: #e7f1f8;
+    color: #3c4761;
+    }
+.teamSection h2,
+.teamSection p,
+.teamSection h3{
+    color: #3c4761;
+}
+
+.teamSection .grid{
+    float: left;
+    width: 25%;
+    height: auto;
+    text-align: center;
+}
+.teamSection .grid .part1{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    background: #bdd1df;
+    margin: 0 auto;
+}
+.grid .part2 h3{
+    text-transform: uppercase;
+}
+.teamSection .grid .part2 span{
+    text-transform: uppercase;
+    color: #30bae7 ;
+    font-size: 16px;
+}
+.iconrow{
+    width: 100%;
+    height: auto;
+}
+.icons{
+    display: inline-block;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background: #bdd1df;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+a.icons.fb:hover{
+    background: #3B5998;
+}
+a.icons.tw:hover{
+    background: #00B6F1;
+}
+a.icons.linked:hover{
+    background: #04669A;
+}
+a.icons.env:hover{
+    background: #87509c;
+}
+.portfolio{
+    background-color: moccasin;
+}
+.portfolio h2,
+.portfolio p{
+    color: black;
+}
+.lab{
+    float: left;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.portfolio .welcomestate a{
+    background: #6acccc;
+}
+.about{
+    background: #d74680;
+}
+.about .grid{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.about .part1{
+    float: left;
+    width: 240px;
+    height: auto;
+    
+}
+.about .part1 a{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px;
+    background: #787878;
+}
+.about .part2{
+    float: left;
+    text-align: center;
+    width: calc(100% - 240px);
+    height: auto;
+}
+.contact{
+    background: #3c5499;
+}
+.contactForm input[type=text],
+.contactForm textarea,
+.contactForm input[type=submit]{
+    color: white;
+    height: 55px;
+    width: 420px;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    border:2px solid #273a71;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    background: #273a71;
+}
+.contactForm textarea{
+    height: 200px;
+    width: 860px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+.contactForm input[type=submit]{
+    height: 70px;
+    width: 295px;
+    background: #30bae7;
+    border:2px solid #30bae7;
+    text-transform: uppercase;
+}
+.footerMenu{
+    width: 100%;
+    height: 110px;
+    background: #344b8e;
+    text-align: center;
+}
+.footerMenu ul li a{
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    font-size: 24px;
+}
+.footerMenu ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.footerMenu ul li:hover a{
+    text-decoration: underline;
+    transition-duration: 0.4s;
+    color: #30bae7;
+}
+.footerMenu ul li a.active{
+    color: #30bae7;
+}
